@@ -1,5 +1,5 @@
 # .github/workflows/02-wowxxx-downloader.yml
-name: 02 - 🔞 دانلود از Wow.xxx
+name: 02 - Maked By Ai-WOW
 
 on:
   workflow_dispatch:
@@ -82,8 +82,8 @@ jobs:
           REPO_NAME_ENV: ${{ github.event.repository.name }}
           BRANCH_ENV: ${{ github.ref_name }}
         run: |
-          chmod +x .github/scripts/download_site.sh
-          .github/scripts/download_site.sh
+          chmod +x .github/scripts/download_wow.sh
+          .github/scripts/download_wow.sh
 
       - name: Stop WARP Container
         if: always()
